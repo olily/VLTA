@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+</body>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>VLBT-Portal</title>
+    <script type="text/javascript" src="../js/mubu.js"></script>
+    <link rel="stylesheet" href="../css/index.css"/>
+</head>
+<body class="more">
+<center>
+    <div id="header">
+        <h1>VLTA-Portal</h1>
+        <h2>Welcome to Vulnerablity Testing Application! </h2>
+    </div>
+    <div id="menu">
+        <table>
+            <tbody>
+            <tr>
+                <td>
+                    <a href="../index.php">
+                        <img src="../img/home.png">
+                    </a>
+                </td>
+                <td>
+                    <a href="bugs.html">
+                        <img src="../img/bugs.png">
+                    </a>
+                </td>
+                <td>
+                    <a href="reset.php">
+                        <img src="../img/reset.png">
+                    </a>
+                </td>
+                <td>
+                    <img src="../img/ed-more.png">
+                </td>
+                <td>
+                    <a href="help.html">
+                        <img src="../img/help.png">
+                    </a>
+                </td>
+                <td>
+                    <img src="../img/welcome.png">
+                </td>
+            </tr>
+            </tbody>
+        </table>
+        <p>
+            <img src="../img/image.gif" width="796px">
+        </p>
+    </div>
+    <div id="bg">
+        <div id="content">
+            <h1>Our Bugs</h1>
+            <div id="selection1">
+                <a href="../bugs/File.html">
+                    <p>File Upload</p>
+                </a>
+            </div>
+            <div id="selection2">
+                <a href="../bugs/XSS.html">
+                    <p>XSS</p>
+                </a>
+            </div>
+            <div id="selection3">
+                <a href="../bugs/Code.html">
+                    <p>代码审计</p>
+                </a>
+            </div>
+            <div id="selection4">
+                <a href="../bugs/Command.html">
+                    <p>命令注入</p>
+                </a>
+            </div>
+            <div id="selection5">
+                <a href="../bugs/SQL.html">
+                    <p>SQL Injection</p>
+                </a>
+            </div>
+        </div>
+        <div class="main_more">
+            <h1>话 Bugs</h1>
+            <div id="subject">
+                <a href="javascript:void(0)" onclick="show('div1')">
+                    <div id="circle1">
+                        <p>File upload是啥洞？？？</p>
+                    </div>
+                </a>
+                <a href="javascript:void(0)" onclick="show('div2')">
+                    <div id="circle2">
+                        <p>XSS又是什么鬼？？？</p>
+                    </div>
+                </a>
+                <a href="javascript:void(0)" onclick="show('div3')">
+                    <div id="circle3">
+                        <p onclick="hide('div3')">代码审计啊？？？</p>
+                    </div>
+                </a>
+                <a href="javascript:void(0)" onclick="show('div4')">
+                    <div id="circle4">
+                        <p onclick="hide('div4')">命令？？？注入？？？</p>
+                    </div>
+                </a>
+                <a href="javascript:void(0)" onclick="show('div5')">
+                    <div id="circle5">
+                        <p onclick="hide('div5')">你以为SQL注入是什么？？？</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</center>
+<div id="div1" onclick="hide('div1')">我是File Upload</div>
+<div id="div2" onclick="hide('div2')">我是XSS</div>
+<div id="div3" onclick="hide('div3')">我是代码审计</div>
+<div id="div4" onclick="hide('div4')">我是命令注入</div>
+<div id="div5" onclick="hide('div5')">我是SQL注入</div>
+<div id="fade" class="black_overlay"></div>
+
+</body>
+
+</html>
+
+</html>

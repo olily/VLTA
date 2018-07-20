@@ -1,0 +1,244 @@
+body.File {
+    background-color: lightcyan;
+    background-image: url(../img/bg-bank.png);
+    margin-top: -1px;
+}
+
+#header {
+    background: url(../img/bg-header.jpg) no-repeat;
+    width: 900px;
+    height: 360px;
+    overflow: hidden;
+    position: absolute;
+    left: 200px;
+}
+
+#header h1 {
+    color: #FFFFFF;
+    font-size: 72px;
+    letter-spacing: -1px;
+    line-height: 1;
+    margin-bottom: 0.2em;
+    font-family: "goudy stout";
+}
+
+#header h2 {
+    color: papayawhip;
+    font-size: 32px;
+    line-height: 0.8;
+    font-family: "bradley hand itc";
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+#menu {
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    width: 900px;
+    height: 250px;
+    top: 273px;
+    left: 200px;
+    z-index: 1000;
+}
+
+#menu table td {
+    width: 13px;
+
+}
+
+#menu p {
+    margin: -4px;
+}
+
+#bg {
+    width: 900px;
+    height: 800px;
+    background-color: #0D1716;
+    overflow: hidden;
+    position: absolute;
+    top: 300px;
+    left: 200px;
+}
+
+#content {
+    margin-top: 88px;
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: -1px 0 1px 2px #226;
+    border-color: lightseagreen;
+    width: 355px;
+    height: 650px;
+    z-index: 100;
+    float: left;
+    margin-left: 50px;
+    overflow: hidden;
+    position: relative;
+}
+
+#content h1 {
+    left: 75px;
+    color: #81E7FD;
+    font-family: "edwardian script itc";
+    font-size: 55px;
+    position: absolute;
+    margin-top: 7px;
+}
+
+#selection1 {
+    width: 200px;
+    height: 150px;
+    background-color: palegreen;
+    border-radius: 8px;
+    top: 100px;
+    left: 25px;
+    position: absolute;
+    box-shadow: -1px 0 1px 2px palegreen;
+}
+
+#selection2 {
+    width: 200px;
+    height: 150px;
+    background-color: lightskyblue;
+    left: 50px;
+    top: 100px;
+    position: absolute;
+    border-radius: 8px;
+    margin-top: 90px;
+    box-shadow: -1px 0 1px 2px lightskyblue;
+}
+
+#selection3 {
+    width: 200px;
+    height: 150px;
+    background-color: peachpuff;
+    left: 75px;
+    top: 100px;
+    margin-top: 180px;
+    position: absolute;
+    border-radius: 8px;
+    box-shadow: -1px 0 1px 2px peachpuff;
+}
+
+#selection4 {
+    width: 200px;
+    height: 150px;
+    background-color: palegreen;
+    left: 100px;
+    top: 100px;
+    margin-top: 270px;
+    position: absolute;
+    border-radius: 8px;
+    box-shadow: -1px 0 1px 2px palegreen;
+}
+
+#selection5 {
+    width: 200px;
+    height: 150px;
+    background-color: lightskyblue;
+    left: 125px;
+    top: 100px;
+    margin-top: 360px;
+    position: absolute;
+    border-radius: 8px;
+    box-shadow: -1px 0 1px 2px lightskyblue;
+}
+
+#content p {
+    color: white;
+    font-family: "comic sans ms";
+    font-size: 35px;
+}
+
+#content p:link {
+    font-size: 35px;
+}
+
+#content p:visited {
+    font-size: 35px;
+}
+
+#content p:hover {
+    font-size: 38px;
+}
+
+#selection1 p {
+    color: #FA7105;
+    font-size: 38px;
+}
+
+#content a {
+    text-decoration: none;
+}
+
+.main p {
+    margin-top: 88px;
+    margin-left: 400px;
+    color: palegreen;
+    font-family: "imprint mt shadow";
+    font-size: 65px;
+    font-weight: 300;
+}
+
+.main_body {
+    margin-top: -20px;
+    border-style: solid;
+    border-width: 5px;
+    box-shadow: -1px 0 1px 2px lightseagreen;
+    border-color: lightseagreen;
+    width: 420px;
+    height: 555px;
+    z-index: 100;
+    margin-left: 10px;
+    overflow: hidden;
+    position: relative;
+    /*filter:alpha(opacity=50);
+    opacity: 0.50;*/
+}
+
+.main h2 {
+    color: wheat;
+    font-family: "imprint mt shadow";
+    font-size: 20px;
+}
+
+.main h1 {
+    margin-top: -5px;
+    color: wheat;
+    font-family: "bradley hand itc";
+    font-size: 60px;
+}
+
+.main form {
+    margin-top: -10px;
+    margin-left: 10px;
+}
+
+#select_portal {
+    font-family: "华文隶书";
+    font-size: 25px;
+    font-style: normal;
+}
+
+#select_portal option:link {
+    font-size: 25px;
+}
+
+#select_portal option:visited {
+    font-size: 25px;
+}
+
+#select_portal option:hover {
+    font-size: 30px;
+    color: #FA7105;
+}
+
+#subject {
+    width: 350px;
+    height: 200px;
+    background-color: azure;
+    border: ridge;
+}
